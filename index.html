@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSSのフォントサイズ早見ツール</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+</head>
+
+<body>
+    <article class="flex justify-center items-center min-h-screen bg-blue-100 p-16">
+        <div class="max-w-screen-lg w-full mx-auto bg-white px-16 py-4">
+            <h1 class="text-center text-xl font-bold mb-12">
+                TailwindCSSのフォントサイズ早見ツール
+            </h1>
+            <div class="flex flex-wrap">
+                <section class="w-full md:w-1/2">
+                    <h2 class="text-lg font-bold mb-4">
+                        単位早見表
+                    </h2>
+                    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                        <thead class="text-xs text-gray-700 bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                            <tr>
+                                <th scope="col" class="px-6 py-3">
+                                    Class name
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    pixel size
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    rem size
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    text-xs
+                                </th>
+                                <td class="px-6 py-4">
+                                    12px
+                                </td>
+                                <td class="px-6 py-4">
+                                    0.75rem
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    text-sm
+                                </th>
+                                <td class="px-6 py-4">
+                                    14px
+                                </td>
+                                <td class="px-6 py-4">
+                                    0.875rem
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b dark:bg-gray-800">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    text-base
+                                </th>
+                                <td class="px-6 py-4">
+                                    16px
+                                </td>
+                                <td class="px-6 py-4">
+                                    1rem
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b dark:bg-gray-800">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    text-lg
+                                </th>
+                                <td class="px-6 py-4">
+                                    18px
+                                </td>
+                                <td class="px-6 py-4">
+                                    1.125rem
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b dark:bg-gray-800">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    text-xl
+                                </th>
+                                <td class="px-6 py-4">
+                                    20px
+                                </td>
+                                <td class="px-6 py-4">
+                                    1.25rem
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b dark:bg-gray-800">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    text-2xl
+                                </th>
+                                <td class="px-6 py-4">
+                                    24px
+                                </td>
+                                <td class="px-6 py-4">
+                                    1.5rem
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b dark:bg-gray-800">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    text-3xl
+                                </th>
+                                <td class="px-6 py-4">
+                                    30px
+                                </td>
+                                <td class="px-6 py-4">
+                                    1.875rem
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b dark:bg-gray-800">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    text-4xl
+                                </th>
+                                <td class="px-6 py-4">
+                                    36px
+                                </td>
+                                <td class="px-6 py-4">
+                                    2.25rem
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b dark:bg-gray-800">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    text-5xl
+                                </th>
+                                <td class="px-6 py-4">
+                                    48px
+                                </td>
+                                <td class="px-6 py-4">
+                                    3rem
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b dark:bg-gray-800">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    text-6xl
+                                </th>
+                                <td class="px-6 py-4">
+                                    60px
+                                </td>
+                                <td class="px-6 py-4">
+                                    3.75rem
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b dark:bg-gray-800">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    text-7xl
+                                </th>
+                                <td class="px-6 py-4">
+                                    72px
+                                </td>
+                                <td class="px-6 py-4">
+                                    4.5rem
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b dark:bg-gray-800">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    text-8xl
+                                </th>
+                                <td class="px-6 py-4">
+                                    96px
+                                </td>
+                                <td class="px-6 py-4">
+                                    6rem
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b dark:bg-gray-800">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    text-9xl
+                                </th>
+                                <td class="px-6 py-4">
+                                    128px
+                                </td>
+                                <td class="px-6 py-4">
+                                    8rem
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section class="w-full md:w-1/2 flex justify-center items-start">
+                    <div class="w-full px-8">
+                        <h2 class="text-lg font-bold mb-4">
+                            単位自動計算機
+                        </h2>
+                        <p class="leading-relaxed mb-8">
+                            <span class="bg-gray-100 p-1 rounded text-sm">px</span>, <span
+                                class="bg-gray-100 p-1 rounded text-sm">rem</span>には数値のみ入力してください。<br>
+                            対応したTailwind CSSのクラス名が出力されます。
+                        </p>
+                        <div class="text-sm">
+                            <label for="px" class="block text-black">
+                                px
+                            </label>
+                            <input name="px" type="text" autofocus="" id="px" value=""
+                                class="px-4 py-3 mt-3 w-full bg-gray-100 rounded-sm focus:outline-none"
+                                placeholder="数値を入れてください">
+                        </div>
+                        <div class="my-5 text-sm">
+                            <label for="rem" class="block text-black">
+                                rem
+                            </label>
+                            <input name="rem" type="text" id="rem" value=""
+                                class="px-4 py-3 mt-3 w-full bg-gray-100 rounded-sm focus:outline-none"
+                                placeholder="数値を入れてください">
+                        </div>
+                        <div class="my-5 text-sm">
+                            <label for="tailwind" class="block text-black">
+                                Tailwind CSS's Class is
+                            </label>
+                            <input name="tailwind" type="text" id="tailwind" value=""
+                                class="px-4 py-3 mt-3 w-full bg-gray-100 rounded-sm focus:outline-none"
+                                placeholder="クラス名を入れてください">
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+        <script>
+            const px = document.querySelector("#px");
+            const rem = document.querySelector("#rem");
+            const tailwind = document.querySelector("#tailwind");
+
+            const tailwind_px = {
+                "text-xs": "12",
+                "text-sm": "14",
+                "text-base": "16",
+                "text-lg": "18",
+                "text-xl": "20",
+                "text-2xl": "24",
+                "text-3xl": "30",
+                "text-4xl": "36",
+                "text-5xl": "48",
+                "text-6xl": "60",
+                "text-7xl": "72",
+                "text-8xl": "96",
+                "text-9xl": "128"
+            };
+
+            const tailwind_rem = {
+                "text-xs": "0.75",
+                "text-sm": "0.875",
+                "text-base": "1",
+                "text-lg": "1.125",
+                "text-xl": "1.25",
+                "text-2xl": "1.5",
+                "text-3xl": "1.875",
+                "text-4xl": "2.25",
+                "text-5xl": "3",
+                "text-6xl": "3.75",
+                "text-7xl": "4.5",
+                "text-8xl": "6",
+                "text-9xl": "8"
+            };
+
+            function convertPxToRem(px) {
+                var fontSize = getComputedStyle(document.documentElement).fontSize;
+                return px / parseFloat(fontSize);
+            }
+
+            function convertRemToPx(rem) {
+                var fontSize = getComputedStyle(document.documentElement).fontSize;
+                return rem * parseFloat(fontSize);
+            }
+
+            function convertClassToRem(class_name) {
+                for (key in tailwind_rem) {
+                    return tailwind_rem[class_name];
+                }
+            }
+
+            function convertClassToPx(class_name) {
+                for (key in tailwind_px) {
+                    return tailwind_px[class_name];
+                }
+            }
+
+            function convertRemToClass(rem) {
+                for (key in tailwind_rem) {
+                    if (rem == tailwind_rem[key]) {
+                        return key;
+                    }
+                }
+            }
+
+            function convertPxToClass(px) {
+                for (key in tailwind_px) {
+                    if (px == tailwind_px[key]) {
+                        return key;
+                    }
+                }
+            }
+
+            px.addEventListener("keyup", function () {
+                rem.value = convertPxToRem(px.value);
+                tailwind.value = convertPxToClass(px.value);
+            });
+
+            rem.addEventListener("keyup", function () {
+                px.value = convertRemToPx(rem.value);
+                tailwind.value = convertRemToClass(rem.value);
+            });
+
+            tailwind.addEventListener("keyup", function () {
+                px.value = convertClassToPx(tailwind.value);
+                rem.value = convertClassToRem(tailwind.value);
+            });
+        </script>
+    </article>
+
+</body>
+
+</html>
